@@ -16,7 +16,6 @@ public class DragAndDropTest {
         //открыть тестовую страницу
         open("https://the-internet.herokuapp.com/drag_and_drop");
         // совершить перемещение
-        //actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(300, 1).release().perform();
         //actions().moveToElement($(byText("A"))).clickAndHold().moveByOffset(300, 1).release().perform();
         //Проверка, что кубики переместились
         $("#column-a").shouldHave(text("B"));

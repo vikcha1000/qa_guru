@@ -38,7 +38,7 @@ public class jUnitTest {
 
     @Test
     void secondTest(){
-        System.out.println("Это secondTest");
+        System.out.println("Это secondTest конфликт");
         Assertions.assertTrue(3>2);
 
     }

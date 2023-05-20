@@ -4,3 +4,6 @@
 *.log
 *.png
 *.html
+*.bin
+*.xml
+/build/test-results/test/TEST-lesson5.TextBoxTest.xml

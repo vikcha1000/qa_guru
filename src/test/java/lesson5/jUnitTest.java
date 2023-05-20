@@ -38,10 +38,9 @@ public class jUnitTest {
 
     @Test
     void secondTest(){
-<<<<<<< HEAD
+
         System.out.println("Это secondTest or not");
-=======
->>>>>>> a3fcfdb63bdffbc875c3b32d84075180025ad9d4
+
         Assertions.assertTrue(3>2);
 
     }
